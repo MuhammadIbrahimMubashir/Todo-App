@@ -68,6 +68,7 @@ export default function Home() {
           boxSizing: "border-box", // Make sure padding doesn't affect width
         }}
       >
+        <title>Todo App</title>
         <h1
           style={{
             textAlign: "center",
