@@ -57,15 +57,15 @@ export default function Home() {
         alignItems: "center",
       }}
     >
-      <title>Todo App</title>
       <div
         style={{
           background: "#fff",
-          padding: "30px",
+          padding: "20px",
           borderRadius: "10px",
           boxShadow: "0 8px 20px rgba(0, 0, 0, 0.2)",
-          maxWidth: "400px",
+          maxWidth: "600px", // Ensure the card is not too wide
           width: "100%",
+          boxSizing: "border-box", // Make sure padding doesn't affect width
         }}
       >
         <h1
@@ -74,6 +74,7 @@ export default function Home() {
             color: "#333",
             marginBottom: "20px",
             fontSize: "24px",
+            margin: "0",
           }}
         >
           Todo App
